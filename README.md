@@ -14,6 +14,6 @@
   
 ## Please find screenshots for the finished application:  
 
-<img src="./screenshots/homepage.png" width="35%" /><img src="./screenshots/live-search.png" width="35%" /><img src="./screenshots/course-details.png" width="35%" /><img src="./screenshots/add-review.png" width="35%" /><img src="./screenshots/about.png" width="35%" />
+<img src="./screenshots/homepage.png" width="35%" /><img src="./screenshots/live-search.png" width="35%" /><img src="./screenshots/course-details.png" width="35%" /><img src="./screenshots/about.png" width="35%" /><img src="./screenshots/Simulator Screen Shot - iPhone 11 - 2020-04-30 at 13.08.50.png" width="35%" /><img src="./screenshots/add-review.png" width="35%" />
 
 
