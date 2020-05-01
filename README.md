@@ -8,7 +8,7 @@
       * AddReview screen
     * About screen
 * Complete the code in `/components/CoursesList.js` to display the Live Search and list of courses using `FlatList`. The `Course` reusable component renders a single course, you will need to implement `infoPressed` method and make it functional.
-* Complete the code in `/components/CoursesDetails.js` to display the course details.
+* Complete the code in `/components/CourseDetails.js` to display the course details, you will also need to implement `addReview` method.
 * Complete the code in `/components/AddReview.js` to meet the following requirements:
   * Add...
   
