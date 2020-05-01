@@ -14,12 +14,11 @@
   * After the first submit, the form will persist the user name in the phone local storage using `AsyncStorage`. The next time a user opens the screen, their name has to be fetched from local storage.
   * Use `import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';` component to avoid a situation where the keyboard slides over the form element. (install and use)
   * When users click `Submit Review` display an `ActivityIndicator`, save their name in local storage, and navigate back to the course details screen. (No need to save the review)
-  * Optional: write an Express server to support these two API:
+  * Optional: write an Express server to support the following API, and make necessary changes in your app to communicate with the backend server:
     * GET /courses
     * GET /courses/:course_id
     * POST /courses/:course_id/reviews
-  * Optional: make necessary changes in your app to communicate with the backend server.
-  
+    
 ## Please find screenshots for the finished application:  
 
 <img src="./screenshots/homepage.png" width="35%" /><img src="./screenshots/live-search.png" width="35%" />  
