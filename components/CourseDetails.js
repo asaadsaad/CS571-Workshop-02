@@ -8,15 +8,18 @@ import {
 const CourseDetails = () => {
   return (
     <ScrollView style={styles.root}>
-      {/* <View style={styles.infoHeader}>
-        <Text style={styles.name}>{course.title}</Text>
-        <Text style={styles.faculty}>{course.code}</Text>
-        <Text style={styles.faculty}>{course.faculty}</Text>
-        <Stars rating={course.rating} />
-        <TouchableOpacity style={styles.button} onPress={addReview}>
-          <Text style={styles.buttonText}>Add Review</Text>
-        </TouchableOpacity>
-      </View> */}
+      {/* 
+      <View>
+        <View style={styles.infoHeader}>
+          <Text style={styles.name}>{course.title}</Text>
+          <Text style={styles.faculty}>{course.code}</Text>
+          <Text style={styles.faculty}>{course.faculty}</Text>
+          <Stars rating={course.rating} />
+          <TouchableOpacity style={styles.button} onPress={addReview}>
+            <Text style={styles.buttonText}>Add Review</Text>
+          </TouchableOpacity>
+        </View> 
+      </View>*/}
     </ScrollView>
   );
 };
