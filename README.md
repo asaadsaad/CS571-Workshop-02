@@ -10,7 +10,15 @@
 * Complete the code in `/components/CoursesList.js` to display the Live Search and list of courses using `FlatList`. The `Course` reusable component renders a single course, you will need to implement `infoPressed` method and make it functional.
 * Complete the code in `/components/CourseDetails.js` to display the course details, you will also need to implement `addReview` method.
 * Complete the code in `/components/AddReview.js` to meet the following requirements:
-  * Add...
+  * Create a controlled form with the following state: `{ name: '', rating: 0, comment: '', submtting: false }`.
+  * After the first submit, the form will persist the user name in the phone local storage using `AsyncStorage`. The next time a user opens the screen, their name has to be fetched from local storage.
+  * Use `import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';` component to avoid a situation where the keyboard slides over the form element. (install and use)
+  * When users click `Submit Review` display an `ActivityIndicator`, save their name in local storage, and navigate back to the course details screen. (No need to save the review)
+  * Optional: write an Express server to support these two API:
+    * GET /courses
+    * GET /courses/:course_id
+    * POST /courses/:course_id/reviews
+  * Optional: make necessary changes in your app to communicate with the backend server.
   
 ## Please find screenshots for the finished application:  
 
