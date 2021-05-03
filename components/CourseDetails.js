@@ -30,7 +30,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   infoHeader: {
-    flexDirection: 'row',
     padding: 20
   },
   info: {
