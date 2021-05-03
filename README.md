@@ -12,9 +12,9 @@ Start by creating a new expo project, copy the provided components, and then sta
 * Complete the code in `/components/CourseDetails.js` to display the course details, you will also need to implement `addReview` method.
 * Complete the code in `/components/AddReview.js` to meet the following requirements:
   * Create a controlled form with the following state: `{ name: '', rating: 0, comment: '', submitting: false }`.
-  * After the first submit, the form will persist the user name in the phone local storage using `AsyncStorage`. The next time a user opens the screen, their name has to be fetched from local storage.
+  * After the first submit, the form will persist the user name in the phone local storage using `AsyncStorage`. The next time a user opens the screen, their name has to be fetched from local storage. use `https://react-native-async-storage.github.io/async-storage/`. (install and use).
   * Use `import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';` component to avoid a situation where the keyboard slides over the form element. (install and use)
-  * When users click `Submit Review` display an `ActivityIndicator`, save their name in local storage, and navigate back to the course details screen. (No need to save the review)
+  * When users click `Submit Review` display an `ActivityIndicator`, save their name in local storage, and navigate back to the course details screen. (Save the course review within the phone storage).
 * Optional: write an Express server to support the following API, and make necessary changes in your app to communicate with the backend server:
     * `GET /courses`
     * `GET /courses/:course_id`
