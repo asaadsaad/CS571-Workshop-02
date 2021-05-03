@@ -1,6 +1,6 @@
 # CS571 Workshop 02
 ## MIU Courses Review App
-Start by creating a new expo project, copy the provided components, and then start working on the requirements, you will need to add additional dependencies based on the requirements. **Check the screenshots below**  
+Start by creating a new expo project, copy the provided components, and then start working on the requirements, you will need to add additional dependencies based on the requirements. **Check the screenshots below**.  
 * Complete the code in `App.js` to render an application with the following structure:
   * Material Bottom Tab Navigator
     * Stack Navigator
