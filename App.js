@@ -1,12 +1,14 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 import { StyleSheet, Text, View, TextInput, FlatList } from 'react-native';
+import Constants from 'expo-constants';
 
 export default function App() {
 
   return (
-    <View style={styles.container}>
-      <Text>Workshop 02</Text>
-    </View>
+      <View style={styles.container}>
+        <Text>Workshop 02</Text>
+      </View>
   );
 }
 
