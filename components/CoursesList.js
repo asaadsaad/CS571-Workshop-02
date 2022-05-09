@@ -1,8 +1,7 @@
 import React from 'react';
-import { StyleSheet, Platform, SafeAreaView, View, Image, TextInput, FlatList } from 'react-native';
+import { StyleSheet, Platform, SafeAreaView, View, Image, TextInput, FlatList, Text } from 'react-native';
 
-import Course from 'components/Course';
-import Header from 'components/Header';
+import Header from './Header';
 
 const data = [
     { title: 'Web Application Programming', faculty: 'Asaad Saad', code: 'CS472', rating: 4 },
@@ -26,6 +25,7 @@ export default function CoursesList() {
             }}>
             <View>
                 <Header />
+                <Text>Courses List</Text>
             </View >
         </SafeAreaView>
     );
