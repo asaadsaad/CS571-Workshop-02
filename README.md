@@ -1,4 +1,4 @@
-# CS571 Workshop 02
+# CS571 Workshop
 ## MIU Courses Review App
 Start by creating a new expo project, copy the the following:
 * Components folder (all your code should be here)
